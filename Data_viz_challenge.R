@@ -49,7 +49,10 @@ plot_grid(plot1, plot2, plot3, plot4, labels = "AUTO") #combining these plots in
 
 ########################################
 
-# MAIN VIZ CHALLENGE:
+# MAIN VIZ CHALLENGE: Recall previous BOM challenge (GitHub repo "DS-W02-Reproducibility_challenge")
+
+BOM_data <-  read_csv("data/BOM_data.csv")
+BOM_stations <-  read_csv("data/BOM_stations.csv")
 
 
 
@@ -57,4 +60,22 @@ plot_grid(plot1, plot2, plot3, plot4, labels = "AUTO") #combining these plots in
 # For the Perth station (ID 9225), produce three scatter plots showing the relationship 
 # between the maximum temperature and each other measurement recorded (minimum temperature, 
 # rainfall and solar exposure).
+
+
+
+# Question 2
+# Display these four measurements for the Perth station in a single scatter plot by using 
+# additional aesthetic mappings.
+# You may need to try a few different data/aesthetic mappings to find one you like.
+
+
+
+# Question 3
+# Take the four plots you have produced in Q1 and Q2 and save them as a multi-panel figure.
+
+
+
+# Question 4
+# Using the entire BOM dataset, calculate the average monthly rainfall for each station. 
+# Produce a lineplot to visualise this data and the state each station is in.
 
